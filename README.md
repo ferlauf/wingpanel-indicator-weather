@@ -3,15 +3,13 @@
 </p>
 <h1 align="center">Wingpanel Weather</h1>
 
-## Archive notice
+## Notice
 
-Since I decided to migrate to a different distro, it's time for me to let this project go and archive it.
+This project is a fork of https://github.com/casasfernando/wingpanel-indicator-weather, as the original developer has archived the repository.
 
 ## About
 
 Wingpanel Weather is a status indicator that displays weather status information in elementary OS Wingpanel.
-
-Being this one of my first Vala applications I'm sure that the code can be improved, so:
 
 - If you find any problems while running the application please report it through an issue.
 - Pull requests and translations are welcome.
@@ -30,7 +28,7 @@ Being this one of my first Vala applications I'm sure that the code can be impro
 - elementary OS 5.1.7 Hera
 - elementary OS 6.0 Odin
 - elementary OS 7.0 Horus
-- elementary OS 8.0 Cirse
+- elementary OS 8.1 Circe
 
 ## Screenshots
 
@@ -79,7 +77,7 @@ Or in **elementary OS Odin/Horus** running:
 sudo apt install libgeoclue-2-dev libgweather-3-dev libnotify-dev libgranite-dev libgtk-3-dev libwingpanel-dev libhandy-1-dev meson valac
 ```
 
-Or in **elementary OS Cirse** running:
+Or in **elementary OS Circe** running:
 
 ```
 sudo apt install cmake gettext libgeoclue-2-dev libgweather-4-dev libnotify-dev libgranite-dev libgtk-3-dev libwingpanel-dev libhandy-1-dev meson valac
